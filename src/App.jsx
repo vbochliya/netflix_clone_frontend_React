@@ -1,12 +1,11 @@
 import './App.css'
+import TestPayment from './componants/dummyPaymentPage'
 
 function App() {
 
   return (
     <>
-      <div>
-          netflix frontend
-      </div>
+<TestPayment />
     </>
   )
 }
