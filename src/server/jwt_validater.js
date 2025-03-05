@@ -9,8 +9,13 @@ function isTokenExpired(token) {
     if (!decoded.exp) {
       return false; 
     }
+
+    let result = decoded.exp < Date.now() / 1000;
+    if (result) {
+      localStorage.removeItem('token');
+    }
+    return result;
     
-    return decoded.exp * 1000 < Date.now();
   } catch (error) {
     console.error('Token decoding error:', error);
     return true;
