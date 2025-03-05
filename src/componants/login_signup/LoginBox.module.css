@@ -1,0 +1,106 @@
+.Lb{
+    width:450px;
+    height:calc(730px - 75px);
+    margin-left:calc((100% - 450px)/2);
+    /* margin-top:40%; */
+    margin-bottom:0%;
+    margin-top:75px;
+    background-color:rgba(0,0,0,0.73);
+    /* background-color:red; */
+    position:absolute;
+    padding:0%;
+    z-index:2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color:white;
+}
+.Lb p{
+    width:100%;
+    /* background-color: red; */
+    height: 10%;
+    font-size: xx-large;
+    font-weight: 650;
+    padding-left:15%;
+    margin-top:12%;
+    margin-bottom: 0%;
+}
+.Lb span{
+    width:100%;
+    color:rgba(255,255,255,0.74);
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:12px;
+    margin-bottom:8px;
+}
+.check{
+    /* display: flex; */
+    /* align-items: start; */
+    /* justify-content: start; */
+    /* justify-content: space-around; */
+    
+    padding-left:15%;
+    /* padding-right:2%; */
+    /* align-items:center;
+    justify-content: center; */
+    /* padding-top:0%; */
+    margin-top:0% !important;
+
+}
+
+.check span{
+    height:100%;
+    padding:0%;
+    margin-left:3%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 2px;
+    /* margin-bottom: 4%; */
+    /* background-color: red; */
+    font-size:17px;
+    color:white;
+}
+
+
+/* 
+.chbox {
+    appearance: none;
+    width: 17px;
+    height: 16px;
+    background-color:black;
+    border: none;
+    border:1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+} */
+
+/* .chbox:hover{
+    border:1px solid rgba(255,255,255,1);
+}
+.chbox:checked {
+    background-color: rgba(255,255,255,0.95); 
+} */
+
+.chbox:checked::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 2px 2px 0; /* Creates the angular tick */
+    transform: rotate(45deg);
+    top: 0px;
+    left: 4px;
+    font-family: Arial, sans-serif; /* Ensure a clean checkmark */
+}
+.chbox:checked:hover{
+    background-color: rgba(255,255,255,0.8); 
+}
+
+    

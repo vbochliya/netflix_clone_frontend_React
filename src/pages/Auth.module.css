@@ -1,0 +1,63 @@
+.BgBox{
+  width: 100vw;
+  height:100vh;
+  min-height: 730px;
+  position:relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.Bgp{
+  background-color:rgba(0, 0, 0, 0.49);
+  width:100%;
+  height: 100%;
+  position:absolute;
+  z-index: 1;
+  /* max-width: 100%; */
+  
+}
+.Bgi{
+  background-image: url("./../assets/background-image-auth.jpg");
+  width:calc(112% + 3px) ;
+  height: 100%;
+  /* background-position-x:0px; */
+  /* background-position-y: 50px; */
+  background-size:cover;
+  /* object-fit: ; */
+  /* max-width: 100%; */
+  
+  position:absolute;
+  z-index: 0;
+}
+.Bgp span{
+  margin-left:11%;
+  /* margin-top:50%; */
+}
+.Bgp span img{
+  width:10%;
+  height:7%;
+  min-width:100px;
+  margin-top:calc(1% + 6px);
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .Bgp{
+    background-color:rgba(0, 0, 0,1);
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .Bgp span{
+    margin-left:4%;
+    /* margin-top:50%; */
+  }
+  .Bgp span img{
+    width:10%;
+    height:7%;
+    margin-top:calc(1% + 6px);
+  }
+}
