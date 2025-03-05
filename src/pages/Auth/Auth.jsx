@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Auth.module.css";
-import LoginBox from "../componants/login_signup/LoginBox";
-import SignupBox from "../componants/login_signup/SignupBox";
-import logo from "./../../public/logo.svg";
+import LoginBox from "../../componants/login_signup/LoginBox";
+import SignupBox from "../../componants/login_signup/SignupBox";
+import logo from "./../../../public/logo.svg";
 import { Routes, Route } from "react-router-dom";
 
 function AuthContainer() {

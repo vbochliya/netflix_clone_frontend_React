@@ -17,7 +17,7 @@
   
 }
 .Bgi{
-  background-image: url("./../assets/background-image-auth.jpg");
+  background-image: url("./../../assets/background-image-auth.jpg");
   width:calc(112% + 3px) ;
   height: 100%;
   /* background-position-x:0px; */

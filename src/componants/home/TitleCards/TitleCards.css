@@ -1,0 +1,33 @@
+.title-cards{
+    padding-left: 4.4%;
+    margin-top: 20px;
+}
+
+.card-list{
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+    margin-top: 10px;
+    cursor: pointer;
+  
+}
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.card-list img{
+    border-radius: 5px;
+    width: 240px;
+    height: 130px;
+    /* cursor: pointer; */
+}
+.card-list p{
+    margin-top: 5px;
+    margin-left: 2px;
+    /* cursor: pointer; */
+}
+
+

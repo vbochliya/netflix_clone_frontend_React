@@ -1,0 +1,19 @@
+.searchContainer{
+    display : flex;    
+    background-color: white;
+    border-radius: 5px;
+}
+.searchContainer .inputArea{
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    border: none; 
+}
+.searchContainer img{
+    background-color: rgb(81, 73, 73);
+   width: 1.75rem;
+    padding: .25rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
